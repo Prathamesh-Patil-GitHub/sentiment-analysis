@@ -1,0 +1,67 @@
+body{
+    overflow: hidden;
+}
+
+.normal{
+    background-color: rgb(126, 157, 168);
+}
+
+.red{
+    background-color: rgb(165, 18, 18);
+    transition-duration: 1s;
+}
+
+.green{
+    background-color: rgb(16, 102, 16);
+    transition-duration: 1s;
+}
+
+.card{
+    padding: 5rem;
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2), 
+               0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.emoji{
+    width: 5rem;
+    position: absolute;
+}
+
+.big-emoji{
+    width: 8rem;
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+.small-emoji{
+    width: 3rem;
+    opacity: 0.6;
+    transition-duration: 1s;
+}
+
+.button{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.265);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
